@@ -1,13 +1,19 @@
+/******************************
+
+脚本功能：菜谱大全+解锁VIP
+
 *******************************
 
 [rewrite_local]
 
-^https:\/\/apiios_dq\.xiangha\.com url script-response-body https://raw.githubusercontent.com/Apibug/QuantumultX/main/%E8%8F%9C%E8%B0%B1%E5%A4%A7%E5%85%A8.js
+^https:\/\/apiios_dq\.xiangha\.com url script-response-body https://raw.githubusercontent.com/Apibug/QuantumultX/main/cpdq.js
+
 [mitm] 
 
 hostname = dq.xiangha.com,apiios_dq.xiangha.com
 
 *******************************/
+
 var _0x1dc272=_0x2e482c(this,function(){
 	var _0x149624=function(){
 		var _0x3d66a6=_0x149624.constructor('return /" + this + "/')().compile('^([^ ]+( +[^ ]+)+)+[^ ]}');
