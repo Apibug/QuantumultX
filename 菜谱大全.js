@@ -2,8 +2,7 @@
 
 [rewrite_local]
 
-^https:\/\/apiios_dq\.xiangha\.com url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/cpdq.js
-
+^https:\/\/apiios_dq\.xiangha\.com url script-response-body https://raw.githubusercontent.com/Apibug/QuantumultX/main/%E8%8F%9C%E8%B0%B1%E5%A4%A7%E5%85%A8.js
 [mitm] 
 
 hostname = dq.xiangha.com,apiios_dq.xiangha.com
