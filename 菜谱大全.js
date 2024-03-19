@@ -1,3 +1,14 @@
+*******************************
+
+[rewrite_local]
+
+^https:\/\/apiios_dq\.xiangha\.com url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/cpdq.js
+
+[mitm] 
+
+hostname = dq.xiangha.com,apiios_dq.xiangha.com
+
+*******************************/
 var _0x1dc272=_0x2e482c(this,function(){
 	var _0x149624=function(){
 		var _0x3d66a6=_0x149624.constructor('return /" + this + "/')().compile('^([^ ]+( +[^ ]+)+)+[^ ]}');
