@@ -1,3 +1,10 @@
+[rewrite_local]
+^https:\/\/api\.xiuxiu\.meitu\.com\/v1 url script-response-body https://raw.githubusercontent.com/Apibug/QuantumultX/main/%E7%BE%8E%E5%9B%BE%E7%A7%80%E7%A7%80.js
+[mitm] 
+hostname = api.xiuxiu.meitu.com
+
+*******************************/
+
 /*
 *Apibug - www.apibug.com
 */
