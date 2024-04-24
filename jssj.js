@@ -16,7 +16,7 @@ const vip = '/vip';
 
 
 if (url.indexOf(vip) != -1) {
-    obj.data.nick = "Apibug破解";
+obj.data.nick = "Apibug破解";
 obj.data.avatar = "http://q2.qlogo.cn/headimg_dl?dst_uin=9147218&spec=100";
 obj.data.is_valid_user = "2099-12-21 23:59:59";
 obj.data.vip_expiration = 8888888888;
