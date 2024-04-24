@@ -1,5 +1,5 @@
 [rewrite_local]
-^https:\/\/uc-api\.jin10\.com\/userinfo url script-response-body https://raw.githubusercontent.com/Apibug/QuantumultX/main/jssj.js
+^https:\/\/uc-api\.jin10\.com url script-response-body https://raw.githubusercontent.com/Apibug/QuantumultX/main/jssj.js
 [mitm] 
 hostname = uc-api.jin10.com
 
@@ -12,7 +12,7 @@ var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
 
-const vip = '=vip';
+const vip = '/userinfo';
 
 
 if (url.indexOf(vip) != -1) {
