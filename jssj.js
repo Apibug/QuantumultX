@@ -22,7 +22,6 @@ obj.data.is_valid_user = "2099-12-21 23:59:59";
 obj.data.vip_expiration = 8888888888;
 obj.data.vip_level = 2;
 obj.data.level = 999;
-obj.data.home_prompt = "您的会员将于2099/01/01过期。";
 
 	body = JSON.stringify(obj);
 }
