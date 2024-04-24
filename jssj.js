@@ -1,6 +1,7 @@
 [rewrite_local]
-^https:\/\/uc-api\.jin10\.com url script-response-body https://raw.githubusercontent.com/Apibug/QuantumultX/main/jssj.js
-[mitm] 
+^https://uc-api\.jin10\.com/userinfo\?show=vip$ url script-response-body https://raw.githubusercontent.com/Apibug/QuantumultX/main/jssj.js
+
+[mitm]
 hostname = uc-api.jin10.com
 
 *******************************/
